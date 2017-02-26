@@ -1,0 +1,26 @@
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  @include fontSize(24,32);
+  @media (min-width: $screen-md){
+    @include fontSize(32,40);
+  }
+}
+
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  @include fontSize(18,26);
+  @media (min-width: $screen-md){
+    @include fontSize(26,34);
+  }
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  @include fontSize(16,24);
+  @media (min-width: $screen-md){
+    @include fontSize(22,28);
+  }
+}

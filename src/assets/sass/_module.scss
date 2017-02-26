@@ -1,0 +1,32 @@
+.car-item{
+  border: 1px solid $color-secondary;
+  padding: 0 0 20px 0;
+  margin: 0 0 20px 0;
+
+  img{
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  h2{
+    padding: 0 20px;
+    margin: 0 0 20px 0;
+  }
+
+  p{
+    padding: 0 20px;
+    margin: 0 0 20px 0;
+  }
+
+  .add-btn{
+    margin: 0 20px 0;
+    transition: all ease .5s;
+    opacity: 0;
+  }
+
+  &:hover{
+    .add-btn{
+      opacity: 1;
+    }
+  }
+}

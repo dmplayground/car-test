@@ -1,0 +1,24 @@
+.row{
+  max-width: 1280px;
+  margin: 0 20px;
+  clear: both;
+  @media (min-width: $screen-md){
+    margin: 0 auto;
+  }
+}
+
+.column{
+  float: left;
+}
+
+.column-half{
+  width: 100%;
+  @media (min-width: $screen-md){
+    width: 48%;
+    margin: 0 1%;
+  }
+}
+
+.text-center{
+  text-align: center;
+}
